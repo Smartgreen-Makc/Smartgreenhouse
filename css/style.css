@@ -2,10 +2,7 @@ header {
   background-color: #0000;
 }
 
-body {
+span {
   font-size: 20px;
-}
-
-body  {
-  font-size: 10px;
+  color: red;
 }
