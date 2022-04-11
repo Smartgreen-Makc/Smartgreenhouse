@@ -71,6 +71,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text {
-  color: red;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text2 {
   font-size: 30px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.color {
+  color: #f00f00;
+}
+
+.textalign {
+  text-align: right;
+}
+
+.textdecor {
+  text-decoration: underline;
+}
+
+.texthadow {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.texttransform {
+  text-transform: capitalize;
+}
+
+.textident {
+  text-indent: 50px;
+}
+
+.letter {
+  letter-spacing: 5px;
+}
+
+.wordspase {
+  word-spacing: 10px;
+}
+
+.ws {
+  white-space: nowrap;
+}
+
+.lh {
+  line-height: 50px;
 }
