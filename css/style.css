@@ -92,6 +92,10 @@ body {
   margin: 15px 0px 0px 0px;
 }
 
+.list1 li:nth-child(2):hover {
+  color: red;
+}
+
 .textbutton {
   width: 200px;
   height: 40px;
@@ -109,7 +113,7 @@ body {
   border: 1px solid #000;
   border-radius: 20px;
   font-size: 18px;
-  background-color: #80b7b3;
+  background-color: #fff;
 }
 
 .textbutton2 {
@@ -119,6 +123,14 @@ body {
   border: 1px solid #000;
   border-radius: 20px;
   font-size: 18px;
+  background-color: #fff;
+}
+
+.textbutton1:hover {
+  background-color: #80b7b3;
+}
+
+.textbutton2:active {
   background-color: #80b7b3;
 }
 
@@ -129,9 +141,19 @@ body {
   border: 1px solid #000;
 }
 
+.textinput:focus {
+  -webkit-box-shadow: 2px 2px 2px 2px #666;
+          box-shadow: 2px 2px 2px 2px #666;
+}
+
 .textinput1 {
   width: 290px;
   height: 50px;
-  margin: 0px 80px 0px 0px;
+  margin: 125px 0px 0px 0px;
   border: 1px solid #000;
+}
+
+.textinput1:focus {
+  -webkit-box-shadow: 2px 2px 2px 2px #666;
+          box-shadow: 2px 2px 2px 2px #666;
 }
