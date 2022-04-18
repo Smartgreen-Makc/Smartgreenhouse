@@ -72,98 +72,50 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-/*=====================================================*/
-body {
-  font-family: Lato;
+/*==============================================*/
+.block {
+  width: 800px;
+  height: 400px;
+  margin: 20px 0px 0px 50px;
 }
 
-.about__body {
-  max-width: 823px;
-  margin: 0px auto;
-}
-
-.about__header {
-  margin: 0px 0px 65px 0px;
-}
-
-.about__title {
-  margin: 0px 0px 30px 0px;
-}
-
-.about__text {
-  max-width: 688px;
-  color: #868585;
-  font-size: 14px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 25.89px;
-  margin: 0px auto;
-}
-
-.about__row {
+.block-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0;
-  margin: 0px -15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.about__column {
-  padding: 0px 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333%;
-          flex: 0 0 33.333%;
-}
-
-.title {
-  font-size: 34px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 8.95px;
-  position: relative;
-  text-align: center;
-}
-
-.title:after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  bottom: 0;
-  height: 1px;
-  left: 50%;
-  background-color: #000;
-  margin: 0px 0px 0px -25px;
-}
-
-.item-about__icon {
-  margin: 0px auto;
+.block-list__one {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  width: 92px;
-  height: 92px;
-  border: 1px solid #f1f1f1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border: 1px solid #000;
+  background-color: red;
 }
 
-.item-about__title {
-  text-align: center;
-  color: #000000;
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 3.52px;
-  margin: 0px 0px 35px 0px;
+.block-list__two {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: red;
 }
 
-.item-about__text {
-  text-align: center;
+.block-list__free {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: red;
+}
+
+.block-list__fuoo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: red;
 }
