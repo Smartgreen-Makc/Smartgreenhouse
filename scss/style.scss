@@ -2,48 +2,4 @@
 @import "_nool";
 /*==============================================*/
 
-.block {
-width: 800px;
-height: 400px;
-margin: 20px 0px 0px 50px;
 
-
-}
-.block-list {
-   display: flex;
-justify-content: space-between;
-
-		&__one {
-         width: 100px;
-         height: 100px;
-         border-radius: 50%;
-         border: 1px solid #000;
-         background-color: red;
-         
-         
-		}
-
-		&__two {
-         width: 100px;
-         height: 100px;
-         border-radius: 50%;
-         border: 1px solid #000;
-         background-color: red;
-		}
-
-		&__free {
-         width: 100px;
-         height: 100px;
-         border-radius: 50%;
-         border: 1px solid #000;
-         background-color: red;
-		}
-
-		&__fuoo {
-         width: 100px;
-         height: 100px;
-         border-radius: 50%;
-         border: 1px solid #000;
-         background-color: red;
-		}
-}
