@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/* обнуляющий стиль*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -70,52 +69,4 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-/*==============================================*/
-.block {
-  width: 800px;
-  height: 400px;
-  margin: 20px 0px 0px 50px;
-}
-
-.block-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.block-list__one {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  background-color: red;
-}
-
-.block-list__two {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  background-color: red;
-}
-
-.block-list__free {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  background-color: red;
-}
-
-.block-list__fuoo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  background-color: red;
 }
