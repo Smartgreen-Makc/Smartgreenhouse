@@ -70,3 +70,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+.text {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.text p {
+  margin: 0px 0px 20px 0px;
+}
